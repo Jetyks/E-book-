@@ -1,4 +1,6 @@
 .home-container{
-    background-color: blue;
+    position: relative;
+    margin-top: 12px;
     height: 580px;
+    /* background-color: blueviolet; */
 }
