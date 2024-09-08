@@ -1,0 +1,15 @@
+:root {
+    --clr-light-yellow: #e8e9cd9b;
+    /* --clr-purple: rgb(106, 74, 220);
+    --clr-dark-purple: rgb(88, 60, 187);
+    --clr-cyan: #4bd2e473; */
+    
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}

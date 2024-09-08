@@ -1,0 +1,11 @@
+.menu-container{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 180px; /* Ancho del menú */
+    height: 100%; /* Altura completa de la ventana */
+    background-color: var(--clr-light-yellow); /* Color de fondo del menú */
+    overflow-y: auto; 
+}
