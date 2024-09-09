@@ -9,5 +9,5 @@ const NavCircleItem = ({ icon, altText }) => {
 }
 
 export {
-    NavCircleItem
+  NavCircleItem
 }

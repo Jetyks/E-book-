@@ -1,13 +1,13 @@
 import './index.css'
-import { Link } from 'react-router-dom';
-import logo from "../../assets/img/bb-logo.png"
-import homeIcon from "../../assets/img/home-icon.svg"
-import saveIcon from "../../assets/img/save-icon.svg"
-import settingsIcon from "../../assets/img/settings-icon.svg"
-import { NavCircleItem } from '../NavCircleItem';
+import { Link } from 'react-router-dom'
+import logo from '../../assets/img/bb-logo.png'
+import homeIcon from '../../assets/img/home-icon.svg'
+import saveIcon from '../../assets/img/save-icon.svg'
+import settingsIcon from '../../assets/img/settings-icon.svg'
+import { NavCircleItem } from '../NavCircleItem'
 
-function Menu (){
-    return(
+function Menu () {
+  return (
         <nav>
             <div className="menu-container">
                 <div className='logo-container'>
@@ -25,11 +25,11 @@ function Menu (){
                             <NavCircleItem icon={settingsIcon} altText="Home Icon"/>
                         </Link>
                     </div>
-                    
+
                 </div>
             </div>
         </nav>
-    )
+  )
 }
 
-export {Menu};
+export { Menu }
