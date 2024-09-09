@@ -14,6 +14,7 @@ function Home (){
                     <BookCard/>
                     <BookCard/>
                     <BookCard/>
+                    <BookCard/>
                 </SlidingBooks>  
             </div>
             

@@ -1,9 +1,9 @@
 import './index.css'
-import homeIcon from "../../assets/img/home-icon.svg"
-const NavCircleItem = ({icon}) => {
+
+const NavCircleItem = ({ icon, altText }) => {
   return (
     <div className='nav-circle'>
-        <img src={homeIcon} alt="nav icon" />
+        <img src={icon} alt={altText} />
     </div>
   )
 }
