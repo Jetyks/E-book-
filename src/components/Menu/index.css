@@ -6,7 +6,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 140px;
+    width: 90px;
     height: 100%; 
 }
 
@@ -17,11 +17,13 @@
     right: 0;
     height: 90%;
     width: 2px;
-    background-color: rgba(128, 128, 128, 0.406);
+    background-color: #acac9a79;
     border-radius: 12px;
 }
 
 .logo-container{
+    display: flex;
+    justify-content: center;
     /* background-color: rgba(0, 128, 0, 0.32); */
     position: absolute;
     top: -10px;

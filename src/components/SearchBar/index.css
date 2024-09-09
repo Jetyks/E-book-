@@ -1,9 +1,9 @@
 .input-container{
-    position: fixed;
-    left: 200px;
+    position: absolute;
+    left: 120px;
     display: flex;
-    gap: 0 20px;
-    border: 1px solid black;
+    gap: 0 10px;
+   /*  border: 1px solid black; */
     border-radius: 12px;
     width: 50%;
     height: 5%;
@@ -22,7 +22,7 @@
 
 .input-search{
     all: unset;
-    color: gray;
+    color: var(--clr-gray);
     font-family: "Exo 2";
     font-style: italic;
 }

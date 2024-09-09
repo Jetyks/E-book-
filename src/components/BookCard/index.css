@@ -1,0 +1,32 @@
+.card-div{
+    display: flex;
+    flex-direction: column;
+
+    height: 80%;
+    /* width: 30%; */
+    background-color: rgba(209, 24, 24, 0.475);
+    border: 2px solid gray
+}
+.book-img-container{
+    display: flex;
+    justify-content: center;
+    height: 90%;
+    width: 100%;
+   /*  background-color: green; */
+}
+
+.book-img{
+    max-height: 100%;
+    width: auto;
+}
+
+.book-title-container{
+    height: 10%;
+    background-color: rgba(255, 192, 203, 0.767);
+}
+.book-title-container h3{
+    font-family: "Exo 2";
+    font-weight: 500;
+    text-align: center;
+    height: 100%;
+}

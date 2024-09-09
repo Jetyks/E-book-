@@ -8,7 +8,7 @@ const SearchBar = () => {
         <div className='icon-container'>
             <img className='icon-search' src= {iconSearch} alt="search icon" />
         </div>
-        <input className='input-search' type="text" placeholder='Search books' />
+        <input className='input-search' type="text" placeholder='Search books ...' />
     </div>
   )
 }
