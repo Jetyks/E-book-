@@ -1,4 +1,4 @@
-.nav-circle{
+.nav-icon-container{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,12 +9,17 @@
     border-radius: 50%;
 }
 
-.nav-circle:hover{
+.nav-icon-container:hover{
     cursor: pointer;
 }
 
-.nav-circle img{
+.nav-icon-container img{
     height: 60%;
+    
     /* border: 2px solid blue; */
     /* width: 50%; */
+}
+
+.selected-icon{
+    background-color: #2f4858;
 }

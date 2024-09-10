@@ -1,6 +1,5 @@
 import './index.css'
-import iconSearch from "../../assets/img/search-icon.svg"
-
+import iconSearch from '../../assets/img/search-icon.svg'
 
 const SearchBar = () => {
   return (
@@ -14,5 +13,5 @@ const SearchBar = () => {
 }
 
 export {
-    SearchBar
+  SearchBar
 }
