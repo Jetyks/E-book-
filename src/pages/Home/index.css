@@ -3,7 +3,7 @@
     top: 60px;
     position: relative;
     margin-top: 12px;
-    height: 530px;
+    height: 540px;
     /* background-color: white; */
 }
 
@@ -28,8 +28,8 @@
 }
 
 .sliding-books-home{
-    margin-top: 20px;
-    height: 65%;
+    margin-top: 10px;
+    height: 70%;
    /*  background-color: burlywood; */
 }
 

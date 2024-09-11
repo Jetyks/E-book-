@@ -1,9 +1,12 @@
 .sliding-container{
     display: flex;
+    margin-left: -25px;
    /*  gap: 10px; */
-   justify-content: space-around;
+   /* justify-content: space-around; */
+    gap: 90px;
     align-items: center;
     height: 100%;
-    /* border: 1px solid black; */
+    overflow: hidden;
+    border: 1px solid black;
 
 }

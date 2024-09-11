@@ -1,19 +1,32 @@
 import './index.css'
 
-const BookCard = () => {
-    /* const placeHolderImage = ""; */
+const BookCard = ({ img, titulo, autor, isFirst, isLast }) => {
+  const autorTitle = `-${autor}-`
+  const classNameFirstCard = isFirst
+    ? 'first-card-div card-div'
+    : 'card-div'
+  const classNameCard = isLast
+    ? 'last-card-div'
+    : 'card-div'
+
+  const classNameBookImg = isLast
+    ? 'last-book-img'
+    : 'book-img'
   return (
-    <div className='card-div'>
+    <div className={classNameFirstCard || classNameCard}>
         <div className="book-img-container">
-            <img className='book-img' src="https://books.google.com.mx/books/publisher/content?id=TXiMDwAAQBAJ&pg=PP1&img=1&zoom=3&hl=en&bul=1&sig=ACfU3U11sIDDGnFgnIU4MkFkQ8VNYRTEPg&w=1280" alt="book-img"/>
+            <img className={classNameBookImg} src={img} alt="book-img"/>
         </div>
         <div className='book-title-container'>
-            <h3 className='book-title'> Titulo del libro</h3>
+            <h3 className='book-title'> {titulo}</h3>
+        </div>
+        <div className='book-autor-container'>
+            <h5 className='book-autor'> {autorTitle}</h5>
         </div>
     </div>
   )
 }
 
 export {
-    BookCard
+  BookCard
 }
